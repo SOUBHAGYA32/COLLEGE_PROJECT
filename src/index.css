@@ -21,3 +21,55 @@ body {
   font-weight: 400;
   background-color: #FFFFFF;
 }
+button:disabled {
+  cursor: not-allowed;
+}
+input::placeholder {
+  font-size: 0.9rem;
+}
+button,
+input,
+textarea {
+    border: none;
+    outline: none;
+}
+
+button,
+a {
+    cursor: pointer; 
+    text-decoration: none;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+.form-control {
+  padding: 1.3rem 0.75rem !important;
+  font-size: 1.2rem !important;
+}
+::placeholder {
+  color: #00152B !important;
+  opacity: 1;
+}
+.form-control::-webkit-input-placeholder {
+  color: #00152B;
+}
+.form-control::-moz-placeholder {
+  color: #00152B;
+}
+.form-control:-ms-input-placeholder {
+  color: #00152B;
+}
+.form-control::placeholder {
+  color: #00152B;
+}
+.form-control {
+  border: 2px solid;
+  box-shadow: none !important;
+}
+.form-control:focus {
+  box-shadow:  none !important;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
